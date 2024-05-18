@@ -543,6 +543,30 @@ nav {
   }
 }
 
+.testing {
+  width: 20%;
+  padding: 1rem;
+  background-color: gray;
+  position: absolute;
+  top: 8.3em;
+  right: 7em;
+  display: none;
+}
+
+.sign-up {
+  border-radius: 2em;
+}
+
+.show {
+  display: block;
+}
+
+.testing > input {
+  padding: 2em;
+  margin-top: 1rem;
+  width: 100%;
+}
+
 @media (width > 768px) {
   nav {
     padding: 2rem 1rem;

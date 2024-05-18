@@ -61,3 +61,15 @@ ScrollReveal().reveal(".offer__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+// just testing
+
+const button = document.querySelector(".sign-up");
+console.log(button);
+const form = document.querySelector(".testing");
+
+button.addEventListener("click", (e) => {
+  console.log(e);
+  form.classList.toggle("show");
+  console.log(button.classList);
+});
